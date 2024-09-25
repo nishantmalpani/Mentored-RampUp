@@ -1,8 +1,29 @@
-.pic {
-    width: 500px;
-    height: 400px;
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
 }
 
-.foo {
-    margin-bottom: 50px;
+.row2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.card-equal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Fixed height for the image to ensure uniformity */
+  .fixed-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Make sure card body takes up the remaining space */
+  .card-body {
+    flex-grow: 1;
+  }
